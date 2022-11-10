@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "devops-e5-lyon"
+    }
+  },
+  "defaultProject": "devops-e5-lyon",
+  "cli": {
+    "analytics": "e484726a-bde1-4fdf-94c8-7e2ab29f2473"
+  }
 }
