@@ -1,0 +1,10 @@
+<div id="form">
+  <h1>My super form</h1>
+  <form>
+    <label for="alphaNum" class="lbAlphaNum">AlphaNum</label>
+    <input type="text" class="alphaNum"[(ngModel)]="alphaNumInput"> <br>
+    <button type="submit" (click)="validateValue()">Valider</button>
+  </form>
+
+  <p>{{ message }}</p>
+</div>
